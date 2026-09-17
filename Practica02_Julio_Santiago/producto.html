@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detalle de producto en TecnoShop">
+    <title>TecnoShop | Detalle de Producto</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>TecnoShop</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="carrito.html">Carrito</a>
+            <a href="login.html">Iniciar sesión</a>
+            <a href="registro.html">Registrarse</a>
+        </nav>
+    </header>
+
+    <main>
+        <article class="detalle-producto">
+            <img src="img/laptop.jpg" alt="Laptop Pro">
+            <section>
+                <h2>Laptop Pro</h2>
+                <p>Equipo diseñado para estudiantes, desarrolladores y profesionales.</p>
+                <ul>
+                    <li>16 GB RAM</li>
+                    <li>512 GB SSD</li>
+                    <li>Pantalla 15 pulgadas</li>
+                </ul>
+                <p>Precio: <strong>$15,999</strong></p>
+                <button class="agregar-carrito" data-producto="Laptop Pro" data-precio="15999">
+                    Agregar al carrito
+                </button>
+            </section>
+        </article>
+    </main>
+
+    <footer>
+        <p>TecnoShop - Aplicaciones Web</p>
+    </footer>
+
+    <script src="js/carrito.js"></script>
+</body>
+</html>

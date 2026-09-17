@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Catálogo de productos de TecnoShop">
+    <title>TecnoShop | Productos</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>TecnoShop</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="carrito.html">Carrito</a>
+            <a href="login.html">Iniciar sesión</a>
+            <a href="registro.html">Registrarse</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Productos Destacados</h2>
+        <section class="productos">
+            
+            <!-- Producto 1 -->
+            <article class="producto">
+                <img src="img/laptop.jpg" alt="Laptop Pro">
+                <h3>Laptop Pro</h3>
+                <p>Laptop ideal para desarrollo y productividad.</p>
+                <p>$15,999</p>
+                <a href="producto.html">Ver producto</a>
+                <button class="agregar-carrito" data-producto="Laptop Pro" data-precio="15999">
+                    Agregar al carrito
+                </button>
+            </article>
+
+            <!-- Producto 2 -->
+            <article class="producto">
+                <img src="img/telefono.jpg" alt="Smartphone X">
+                <h3>Smartphone X</h3>
+                <p>Diseño moderno y gran rendimiento.</p>
+                <p>$8,499</p>
+                <a href="producto.html">Ver producto</a>
+                <button class="agregar-carrito" data-producto="Smartphone X" data-precio="8499">
+                    Agregar al carrito
+                </button>
+            </article>
+
+            <!-- Producto 3 -->
+            <article class="producto">
+                <img src="img/audifonos.jpg" alt="Audífonos Bluetooth">
+                <h3>Audífonos Bluetooth</h3>
+                <p>Sonido de alta calidad y gran comodidad.</p>
+                <p>$1,299</p>
+                <a href="producto.html">Ver producto</a>
+                <button class="agregar-carrito" data-producto="Audífonos Bluetooth" data-precio="1299">
+                    Agregar al carrito
+                </button>
+            </article>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>TecnoShop - Aplicaciones Web</p>
+    </footer>
+
+    <script src="js/carrito.js"></script>
+</body>
+</html>

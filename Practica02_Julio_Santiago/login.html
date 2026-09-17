@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inicio de sesión en TecnoShop">
+    <title>TecnoShop | Iniciar Sesión</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>TecnoShop</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="carrito.html">Carrito</a>
+            <a href="login.html">Iniciar sesión</a>
+            <a href="registro.html">Registrarse</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario-contenedor">
+            <h2>Iniciar sesión</h2>
+            <form id="formLogin">
+                <label for="loginCorreo">Correo electrónico</label>
+                <input type="email" id="loginCorreo" name="correo" placeholder="ejemplo@correo.com" required>
+
+                <label for="loginPassword">Contraseña</label>
+                <input type="password" id="loginPassword" name="password" placeholder="Tu contraseña" required>
+
+                <button type="submit">Iniciar sesión</button>
+            </form>
+            <p style="text-align: center; margin-top: 15px;">¿No tienes cuenta? <a href="registro.html">Regístrate</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>TecnoShop - Aplicaciones Web</p>
+    </footer>
+
+    <script src="js/auth.js"></script>
+</body>
+</html>
