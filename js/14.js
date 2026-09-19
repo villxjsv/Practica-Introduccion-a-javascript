@@ -15,3 +15,10 @@ console.table(dragonBall);
 const jujutsuKaisen = ['Gojo', 'Megumi', 'Nobara', 'Sukuna'];
 
 console.table(jujutsuKaisen);
+
+const narutoShipuden = new Array('Itachi', 'Sasuke', 'Minato', 'Obito', 'Madara' );
+console.table(narutoShipuden);
+
+const arrVariado = ['Mesa', 15, false , 'si' , null, {nombre: 'Juan', profesion: 'Programador'}];
+
+console.table(arrVariado);
