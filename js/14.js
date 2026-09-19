@@ -36,4 +36,22 @@ console.log(arrVariado.length);
 //Imprimir elementos con forEach
 tortugasNinja.forEach( function(nombre){
     console.log(nombre);
-})
+});
+
+
+const dragonBall2 = ['Cell'];
+
+//Agrega elementos al final
+dragonBall2.push('Majin Buu', 'Babidi');
+console.table(dragonBall2);
+
+//unshift: agrega elementos al inicio
+dragonBall2.unshift('Kamisama', 'Androide 17', 'Andoride 18', 'Roshi');
+
+//pop: elimina el ultimo elemento
+dragonBall2.pop();
+
+//shift:elimina el primer elemento
+dragonBall2.shift();
+
+console.table(dragonBall2);
