@@ -22,3 +22,12 @@ console.table(narutoShipuden);
 const arrVariado = ['Mesa', 15, false , 'si' , null, {nombre: 'Juan', profesion: 'Programador'}];
 
 console.table(arrVariado);
+
+const meses = ['Enero', 'Febrero', 'Marzzo', 'Abril', 'Mayo','Junio'];
+
+meses.splice(1, 2);// Elimna elementos en el rango especificado
+
+console.table(meses);
+
+const nuevoArreglo = ['Julio', ...meses];
+console.table(nuevoArreglo);
