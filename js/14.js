@@ -55,3 +55,12 @@ dragonBall2.pop();
 dragonBall2.shift();
 
 console.table(dragonBall2);
+
+ //Elimina un elemento en un rango especificado
+const meses = [ 'Enero' , 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio'];
+meses.splice(1,2);
+
+console.table(meses);
+
+const nuevoArreglo = [...meses, 'Julio'];
+console.table(nuevoArreglo);
