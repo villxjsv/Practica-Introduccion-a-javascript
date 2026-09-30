@@ -12,4 +12,14 @@ const usuarioAutenticado = new Promise( (resolve, reject) => {
 
 } );
 
-console.log(usuarioAutenticado);
+//*console.log(usuarioAutenticado);
+
+    usuarioAutenticado
+    .then( resultado => console.log(resultado) )
+    .catch( error => console.log(error) );
+
+    //* En los promises existen tres valores:
+    //*Fulfilled : Ya se cumplio
+    //*rejected : Se ha rechazado o no se puede cumplir
+    //*pending: No se ha cumplido pero tampoco se rechazo 
+
