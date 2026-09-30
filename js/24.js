@@ -1,4 +1,4 @@
-// forEach y map
+//* forEach y map
 
 const carrito = [
     {nombre: `Monitor Pulgadas`, precio: 500},
@@ -8,7 +8,7 @@ const carrito = [
 ];
 
 
-//forEach permite solo iterar y mostrar informacion en pantalla
+//*forEach permite solo iterar y mostrar informacion en pantalla
 carrito.forEach(function(producto) {
     console.log(producto);
 });
@@ -19,7 +19,7 @@ const listaProductos = carrito.forEach( producto => producto.nombre);
 
 console.log(listaProductos); //undefined
 
-//map> permite iterar y guardar en un arreglo
+//*map> permite iterar y guardar en un arreglo
 const arreglo = carrito.map( producto => `${producto.nombre} - ${producto.precio}`);
 
 console.log(arreglo);
